@@ -1,0 +1,20 @@
+{
+  "name": "clientthing",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.2",
+    "typescript": "^5.2.2",
+    "typescript-language-server": "^4.3.3",
+    "vite": "^5.3.1"
+  },
+  "dependencies": {
+    "pixi.js": "^8.2.1"
+  }
+}
